@@ -1,0 +1,506 @@
+body {
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,104,104,0.1), rgba(255,255,255,0.8)), url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Header */
+.header {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 0;
+    max-height: 40%;
+    background-color: #1C2A39;
+}
+.header-left { /* Left Header */
+    bottom: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    display: flex;
+    width: 425px;
+}
+.text-test {
+    position: absolute;
+}
+.a-logo {
+    width: 99%;
+}
+.header-right { /* Right Header */
+    flex: auto;
+    text-align: right;
+    margin-bottom: 0;
+    bottom: 0;
+}
+.selection {
+    margin-top: 85px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.selection-ad {
+    margin-bottom: 0;
+    font-style: 'baskerville old face';
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.5s, text-decoration 0.5s;
+}
+.selection-ad:hover {
+    color: rgb(230,192,104);
+    text-decoration: underline;
+}
+/* Body */
+.body {
+    margin-top: 0;
+}
+.bg-container {
+    height: 475px;
+}
+.bg-container-text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 0;
+    margin-left: 0;
+    bottom: 10px;
+    width: 90%;
+    height: 130px;
+    background-color: #1c2a39a9;
+}
+.bg-container-pic {
+    position: relative;
+    height: 475px;
+    background-image: url(img/bg-container.png);
+    background-size: cover;
+}
+.image-circle-size {
+    width: 250px;
+}
+.bg-grey-transparent {
+    background-color: rgba(206, 206, 206, 0.653);
+}
+/* Slider */
+.slider {
+    /* height: 580px; */
+    overflow: hidden;
+}
+.contact-us {
+    height: 500px;
+}
+.contact-us-height {
+    height: 550px;
+}
+.slider figure {
+    position: relative;
+    
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.slider figure img {
+    float: left;
+    width: 20%;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    16% {
+        left: 0;
+    }
+    20% {
+        left: -100%;
+    }
+    36% {
+        left: -100%;
+    }
+    40% {
+        left: -200%;
+    }
+    56% {
+        left: -200%;
+    }
+    60% {
+        left: -300%;
+    }
+    76% {
+        left: -300%;
+    }
+    80% {
+        left: -400%;
+    }
+    96% {
+        left: -400%;
+    }
+    100% {
+        left: 0;
+    }
+}
+/* Slider */
+.reservation { /* Reservation */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px ;
+}
+.reservation-box {
+    width: 60%;
+    min-width: fit-content;
+    min-height: 300px;
+    max-height: 800px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 15px;
+    text-align: left;
+    align-items: center;
+    font-family: 'century gothic';
+    font-size: 18px;
+    background-color: rgba(222, 222, 222, 0.7);
+}
+.book-now {
+    font-size: 30px;
+    font-weight: bold;
+}
+.fill-up {
+    width: 95%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.in-adjust-short {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 95%;
+    min-width: 150px;
+    height: 40px;
+}
+.in-adjust-long {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 98%;
+    min-width: 150px;
+    height: 40px;
+}
+.section-2-size {
+    height: 600px;
+}
+.section-2-pic {
+    left: 8%;
+    width: 400px;
+}
+.gold-div {
+    width: 200%;
+    margin-left: -25%;
+    height: 150px;
+    background-color: rgb(230,192,104);
+}
+.no-decoration {
+    text-decoration: none;
+    color: black;
+}
+.bg-room-1 {
+    background-image: url(img/roompic1.png);
+    background-size: 250px 250px;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    border: 1px solid grey;
+    transition: font-weight 0.5s, font-size 0.5s, background-size 0.5s, width 0.5s, height 0.5s;
+}
+.bg-room-2 {
+    background-image: url(img/roompic2.png);
+    background-size: 250px 250px;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    border: 1px solid grey;
+    transition: font-weight 0.5s, font-size 0.5s, background-size 0.5s, width 0.5s, height 0.5s;
+}
+.bg-room-3 {
+    background-image: url(img/roompic3.png);
+    background-size: 250px 250px;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    border: 1px solid grey;
+    transition: font-weight 0.5s, font-size 0.5s, background-size 0.5s, width 0.5s, height 0.5s;
+}
+.bg-room-4 {
+    background-image: url(img/roompic4.png);
+    background-size: 250px 250px;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    border: 1px solid grey;
+    transition: font-weight 0.5s, font-size 0.5s, background-size 0.5s, width 0.5s, height 0.5s;
+}
+.bg-room-1:hover {
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.bg-room-2:hover {
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.bg-room-3:hover {
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.bg-room-4:hover {
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.submit-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.message { /* Message */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 55%;
+    font-size: 25px;
+}
+.address {
+    font-size: 15px;
+}
+.horizontal-line-c {
+    border-color: grey;
+    border-top: 1px;
+}
+.image-room-size {
+    width: 90%;
+}
+@media screen and (max-width: 992px) {
+    .gold-div {
+        width: 108%;
+        margin-left: -8%;
+    }
+    .section-2-pic {
+        width: 55%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section-2-pic {
+        width: 70%;
+    }
+    .section-2-size {
+        height: 600px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .section-2-pic {
+        width: 85%;
+    }
+}
+.about-images {
+    width: 90%;
+}
+/* Footer */
+.footer {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 0;
+    max-height: 10%;
+    background-color: #1C2A39;
+}
+.text-area {
+    resize: none;
+}
+.get-in-touch {
+    height: 250px;
+    background-color: rgb(216, 180, 97);
+}
+.input-text-width {
+    width: 70%;
+}
+.submit-button-mockup {
+    background-color: rgb(0, 104, 104);
+    border: solid 1px white;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+@media screen and (max-width: 992px) {
+    .get-in-touch {
+        height: 550px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .get-in-touch {
+        height: 575px;
+    }
+}
+.submit-button-mockup:hover {
+    background-color: white;
+    border: solid 1px black;
+    color: rgb(230,192,104);
+} 
+.submit-button-mockup:focus,
+.submit-button-mockup:active {
+    background-color: rgb(230,192,104);
+    border: solid 1px black;
+    color: white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.top-footer {
+    font-size: 15px;
+}
+.bottom-footer {
+    font-size: 15px;
+    color: grey;
+}
+.footer-link {
+    color: grey;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+/* Extras */
+.tina::-webkit-outer-spin-button,
+.tina::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.padlr10px {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.fs18px {
+    font-size: 18px;
+}
+.cg {
+    font-family: 'century gothic';
+}
+.white {
+    color: white;
+}
+.tac {
+    text-align: center;
+}
+/* Media */
+@media screen and (max-width: 1025px) {
+    .header {
+        display: block;
+    }
+    .header-left {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .selection {
+        margin-top: 0;
+        font-size: 20px;
+    }
+    .selection-ad {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .a-logo {
+        width: 45%;
+    }
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 800px) {
+    .reservation-box {
+        width: 40%;
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .book-now {
+        font-size: 20px;
+    }
+    .fill-up {
+        width: 95%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .in-adjust-short {
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 90%;
+        min-width: 50px;
+        height: 25px;
+    }
+    .in-adjust-long {
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 96%;
+        min-width: 50px;
+        height: 25px;
+    }
+    .submit-button {
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 75px;
+        height: 25px;
+    }
+    .fs18px {
+        font-size: 13px;
+    }
+    .message { /* Message */
+        width: 55%;
+        font-size: 21px;
+        font-weight: 600;
+    }
+    .top-footer {
+        font-size: 10px;
+    }
+    .bottom-footer {
+        font-size: 10px;
+    }
+}
